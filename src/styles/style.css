@@ -98,10 +98,7 @@ header {
     gap: 5px;
 }
 
-.container-btn-content {
-    display: flex;
-    /* margin-top: 20px; */
-}
+
 
 .container-main-circulo {
     width: 32px;
@@ -172,12 +169,10 @@ input {
   font-size: 16px;
 }
 
+
 .container-btn-content {
    display: flex;
-    justify-content: flex-start;
-    padding-left: 50px; 
-    max-width: 1200px;
-    margin: 0 auto;
+    justify-content: flex-start;    
 }
 
 .container-btn-content-b{
@@ -225,6 +220,15 @@ footer {
     flex-direction: column;
     gap: 15px;
 }
+
+.container-btn-content-content {
+   display: flex;
+    justify-content: flex-start;
+    padding-left: 50px; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 
 
