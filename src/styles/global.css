@@ -1,0 +1,77 @@
+/* Reset Global */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+/* ------------------------
+   Variáveis Globais
+------------------------- */
+:root {
+    /* 🎨 Cores do global.css */
+    --color-primary: #B0CB1F;
+    --color-secondary: #3C0506;
+    --color-info: #2DA5F3;
+    --color-black: #252B42;
+    --color-yellow: #EFD33D;
+    --color-gray: #77878F;
+    --color-gray-claro: #B1B5B8;
+    --color-orange:#FA8232;
+    --color-white:#FFFFFF;
+    
+    
+
+    --color-text-color: #FFFFFF;
+    --color-black-text-color: #252B42;
+    
+   
+    /* 🔤 Fontes
+    --font: 'Montserrat';
+    --font-family: "Montserrat", sans-serif; */
+
+   
+    /* Tamanhos globais */
+    --text-base: 14px;
+    --text-base2: 16px;
+    --text-2xl: 25px;
+    --text-3xl: 32px;
+    --text-4xl: 40px;
+
+    /* Headline (global.css) */
+    --font-1-size: 57px;
+    --font-1-weight: 600;
+    --font-2-size: 48px;
+    --font-2-weight: 600;
+
+    
+}
+
+.btn-navegation a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+/* ------------------------
+   Botões
+------------------------- */
+.btn-primary {
+    background-color: var(--color-primary);
+    /* padding: 15px 25px; */
+    padding: 15px 35px;
+    border-radius: 20px 0px 20px 0px;
+    margin-top: 16px;
+    color: var(--color-netral-white);
+    text-decoration: none;
+    
+}
+
+.btn-primary a {
+    color: var(--color-netral-white);
+}
+
